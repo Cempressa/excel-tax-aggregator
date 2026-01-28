@@ -13,11 +13,16 @@ Neste projeto, foquei na **padronização de dados através de listas suspensas*
 
 ## 🛠️ Funcionalidades e Recursos
 
-* **Dashboard Interativo:** Menu de navegação por botões (hiperlinks) para acesso rápido às abas de rendimentos e despesas.
-* **Padronização com Listas:** Utilização de listas suspensas (Validação de Dados) para categorização de itens, evitando erros de digitação e facilitando o preenchimento.
-* **Interface Clean:** Design otimizado sem linhas de grade, focado na legibilidade e no aspecto de "software".
-* **Organização Estruturada:** Separação lógica entre Rendimentos Tributáveis, Isentos, Bens e Direitos, baseada nos informes oficiais.
-* **Navegação Intuitiva:** Fluxo de preenchimento guiado por botões, eliminando a necessidade de buscar abas manualmente.
+Dashboard Interativo: Menu de navegação centralizado com botões (hiperlinks), permitindo acesso rápido e alternância entre as diferentes seções da planilha.
+Padronização com Listas: Implementação de listas suspensas (Validação de Dados) para categorizar bancos, tipos de rendimentos e despesas, eliminando erros de digitação e garantindo a integridade dos dados.
+Interface Clean: Design otimizado com a remoção de linhas de grade e cabeçalhos desnecessários, oferecendo uma experiência visual próxima a de um software/aplicativo.
+Organização Estruturada: Separação lógica e precisa entre as fontes de dados:
+Rendimentos Bancários: Saldos e investimentos.
+Holerites (CLT): Entradas mensais e descontos em folha.
+
+CNPJ & Freelancer: Controle para profissionais autônomos e prestadores de serviços.
+
+Navegação Intuitiva: Fluxo de trabalho guiado que orienta o preenchimento, ideal para organizar a documentação antes da entrega oficial à Receita Federal.
 
 ---
 
@@ -40,14 +45,5 @@ Neste projeto, foquei na **padronização de dados através de listas suspensas*
 
 ---
 
-## 📸 Demonstração
-
-*(Dica: Adicione aqui um print mostrando a sua lista suspensa em funcionamento!)*
-![Interface do Projeto](./images/dashboard_preview.png)
-
----
-
-## 👤 Autor
-
-Desenvolvido por **[Seu Nome Aqui]** 🚀
-Conecte-se comigo no [LinkedIn](SEU_LINK_DO_LINKEDIN_AQUI).
+📝 Licença
+Projeto sob licença MIT. Livre para uso e modificação.
