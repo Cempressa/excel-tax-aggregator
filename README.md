@@ -5,7 +5,7 @@
 
 ## 📖 Sobre o Projeto
 
-Este projeto foi desenvolvido como parte de um desafio da **DIO (Digital Innovation One)**. O objetivo foi transformar uma planilha de dados brutos em uma ferramenta de gestão fiscal robusta e intuitiva para organizar informações essenciais para a declaração de Imposto de Renda.
+Este projeto transforma a complexidade da coleta de dados fiscais numa experiência fluida e organizada. Desenvolvido para o desafio da **DIO**, o agregador consolida informações de diversas fontes (Bancos, CLT, PJ e Freelancer) num único ambiente visualmente limpo, facilitando o preenchimento da declaração oficial da Receita Federal.
 
 Neste projeto, foquei na **padronização de dados através de listas suspensas**, garantindo que as informações inseridas sigam as categorias oficiais da Receita Federal. Além disso, aprimorei a experiência do usuário (UX) ao remover as linhas de grade e implementar um sistema de navegação por botões, tornando a planilha uma ferramenta de gestão fiscal profissional.
 
@@ -13,16 +13,41 @@ Neste projeto, foquei na **padronização de dados através de listas suspensas*
 
 ## 🛠️ Funcionalidades e Recursos
 
-Dashboard Interativo: Menu de navegação centralizado com botões (hiperlinks), permitindo acesso rápido e alternância entre as diferentes seções da planilha.
-Padronização com Listas: Implementação de listas suspensas (Validação de Dados) para categorizar bancos, tipos de rendimentos e despesas, eliminando erros de digitação e garantindo a integridade dos dados.
-Interface Clean: Design otimizado com a remoção de linhas de grade e cabeçalhos desnecessários, oferecendo uma experiência visual próxima a de um software/aplicativo.
-Organização Estruturada: Separação lógica e precisa entre as fontes de dados:
-Rendimentos Bancários: Saldos e investimentos.
-Holerites (CLT): Entradas mensais e descontos em folha.
+* **Dashboard Interativo:** Menu de navegação centralizado com botões (hiperlinks) para acesso rápido, eliminando a necessidade de procurar abas manualmente.
+* **Padronização com Listas:** Implementação de **listas suspensas (Validação de Dados)** para categorias e instituições financeiras (mais de 40 bancos pré-cadastrados), garantindo a integridade dos dados.
+* **Interface Clean:** Design otimizado com a remoção de linhas de grade e cabeçalhos, simulando a interface de um software profissional.
+* **Organização Estruturada:** Divisão lógica adaptada a diferentes perfis:
+    * **Rendimentos:** Gestão de saldos e informes bancários.
+    * **Holerites:** Controlo detalhado para rendimentos via CLT.
+    * **CNPJ & Freelancer:** Módulo específico para gestão de notas e recebimentos de profissionais autônomos e PJs.
+* **Navegação Intuitiva:** Fluxo de trabalho guiado que orienta o utilizador a não esquecer nenhum documento essencial.
 
-CNPJ & Freelancer: Controle para profissionais autônomos e prestadores de serviços.
+---
 
-Navegação Intuitiva: Fluxo de trabalho guiado que orienta o preenchimento, ideal para organizar a documentação antes da entrega oficial à Receita Federal.
+## 💻 Tecnologias e Técnicas
+
+* **Microsoft Excel:** Estrutura de dados e motor de cálculos.
+* **Validação de Dados:** Listas inteligentes para evitar erros de escrita e padronizar categorias.
+* **UX/UI Design:** Navegação por botões e estética focada na experiência do utilizador.
+
+---
+
+## 🚀 Última Release
+
+### v1.0.0 - Lançamento Oficial
+* Sistema de navegação por botões (Home/Dashboard).
+* Módulo de validação de dados para categorias CLT e PJ.
+* Interface otimizada para legibilidade (sem linhas de grade).
+* Suporte a mais de 40 instituições financeiras via listas.
+
+---
+
+## 📂 Como Utilizar
+
+1.  Faça o **Download** do arquivo `.xlsx` neste repositório.
+2.  Abra no Microsoft Excel.
+3.  Utilize o **Menu Principal** para navegar entre as seções.
+4.  Preencha os campos utilizando as **listas de seleção** para garantir que os dados fiquem organizados corretamente.
 
 ---
 
@@ -34,14 +59,8 @@ Navegação Intuitiva: Fluxo de trabalho guiado que orienta o preenchimento, ide
 * **Formatação Estruturada:** Organização de tabelas para facilitar a leitura dos informes.
 
 ---
-
-## 📂 Como Utilizar
-
-1.  Faça o **Download** ou **Clone** este repositório.
-2.  Abra o arquivo `.xlsx` no Microsoft Excel.
-3.  Utilize o **Menu Principal** para navegar.
-4.  Nas colunas de categoria, utilize as **listas suspensas** para selecionar o tipo de rendimento ou despesa.
-5.  Os dados estarão organizados e prontos para consulta na hora de preencher sua declaração oficial.
+  
+*Projeto para a comunidade DIO.*
 
 ---
 
